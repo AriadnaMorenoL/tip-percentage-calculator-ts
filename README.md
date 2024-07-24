@@ -62,10 +62,6 @@ Through developing this app, I:
 2. Select the desired tip percentage.
 3. View the total amount including the tip.
 
-## Production 
-
-Check out the live version of the app [here].()
-
 
 
 
