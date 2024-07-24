@@ -1,30 +1,68 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Y en el contexto de tu README, quedaría así:
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Tip Percentage Calculator App
 
-## Expanding the ESLint configuration
+This app allows users to calculate the total price of products including different tip percentages. 
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Features
 
-- Configure the top-level `parserOptions` property like this:
+- **Product Price Calculation:** Enter the price of products and get the total amount including the tip.
+- **Tip Percentage Options:** Choose from various tip percentages to see how they affect the total price.
+- **Component-Based Design:** The app displays content across different components for a modular and maintainable structure.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Technologies Used
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- **React:** For building the user interface.
+- **TypeScript:** To add static type checking.
+- **Tailwind CSS:** For styling the application.
+- **useReducer:** To manage the application's state, replacing a previous custom hook.
+
+## Learning Outcomes
+
+Through developing this app, I:
+
+- Learned to manage state using `useReducer` instead of a custom hook.
+- Gained experience in displaying content across different React components.
+- Improved my skills in TypeScript and Tailwind CSS.
+
+## Installation
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/AriadnaMorenoL/tip-percentage-calculator-ts.git
+    ```
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd tip-percentage-calculator
+    ```
+
+3. Install the dependencies:
+
+    ```bash
+    npm install
+    ```
+
+4. Start the development server:
+
+    ```bash
+    npm start
+    ```
+
+## Usage
+
+1. Enter the price of the product(s).
+2. Select the desired tip percentage.
+3. View the total amount including the tip.
+
+## Credits
+
+I would like to give special thanks to the course React y TypeScript - La Guía Completa Creando +10 Proyectos
+ by JuanAPblo de la Torre Valdez, where I learned the concepts and techniques used in this app.
+
+
