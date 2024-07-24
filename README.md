@@ -1,7 +1,4 @@
 
-Y en el contexto de tu README, quedaría así:
-
----
 
 # Tip Percentage Calculator App
 ![App Screenshot](./src/assets/tip-percentage-calcularor-img.png)
