@@ -4,7 +4,6 @@ import OrderContents from "./components/OrderContents";
 import OrderTotal from "./components/OrderTotal";
 import TipPercentForm from "./components/TipPercentForm";
 import { menuItems } from "./data/db";
-import useOrder from "./hooks/useOrder";
 import { initialState, orderReducer } from "./reducers/order-reducer";
 
 function App() {
