@@ -55,6 +55,9 @@ Through developing this app, I:
     ```bash
     npm start
     ```
+## Production 
+
+Check out the live vesion of the app [here](https://tip-porcentage-calculator-ariadnaml.netlify.app/) .
 
 ## Usage
 
