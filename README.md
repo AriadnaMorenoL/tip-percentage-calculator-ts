@@ -4,6 +4,8 @@ Y en el contexto de tu README, quedaría así:
 ---
 
 # Tip Percentage Calculator App
+![App Screenshot](./src/assets/tip-percentage-calcularor-img.png)
+
 
 This app allows users to calculate the total price of products including different tip percentages. 
 
@@ -59,6 +61,13 @@ Through developing this app, I:
 1. Enter the price of the product(s).
 2. Select the desired tip percentage.
 3. View the total amount including the tip.
+
+## Production 
+
+Check out the live version of the app [here].()
+
+
+
 
 ## Credits
 
